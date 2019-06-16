@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.heading{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.heading h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 60px;
+}
+.heading p{
+    font-size: 20px;
+
+}
+.main{
+    width: 100%;
+    background-color: #14171f;
+}
+.quotes{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quotes h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 300;
+}
+.quotes span{
+    color: red;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.quotes p{
+    font-size: 40px;
+    color: white;
+}
+.card{
+    margin-bottom: 20px;
+    background-color: #33394d;
+}
+.image-div{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    top: 0;
+}
+.card-body h3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Cardo', serif;
+}
+.card-body h4{
+    color: white;
+    font-size: 20px;
+}
+.card-body p{
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: start;
+}
+.card-heading{
+    padding-bottom: 50px;
+}
+.contacts{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.contacts p{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.contacts .divider{
+    height: 2px;
+    width: 20%;
+    background-color: #33394d;
+    position: relative;
+}
+.contacts a{
+    text-decoration: underline;
+    color: #33394d;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #ff0040;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    padding: 20px;
+}
+.footer i{
+    color: black;
+}
+
+
+
+@media(max-width: 576px){
+    .heading h3{
+        font-size: 20px;
+    }
+    .quotes{
+        width: 90%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .quotes h1{
+        font-size: 3rem;
+    }
+    .quotes p{
+       font-size: 1.5rem; 
+    }
+    .card-body h3{
+        font-size: 20px;
+    }
+    .card-body h4{
+        font-size: 15px;
+    }
+    .card-body p{
+        font-size: 15px;
+    }
+    .contacts{
+        height: 300px;
+    }
+    .contacts h1{
+        font-size: 1.5rem;
+    }
+    .contacts p{
+        font-size: 16px;
+    }
+    .footer h6{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
